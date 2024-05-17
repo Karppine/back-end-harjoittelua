@@ -1,8 +1,8 @@
 POST http://localhost:3001/api/notes
 content-type: application/json
+Authorization: bearer [tähän tokeni]
 
 {
     "content": "user testaus",
     "important": true,
-    "userId": "6646fe82d8328404994e41a0"
 }
